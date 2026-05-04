@@ -46,3 +46,26 @@ As data lead, my responsibilities in this repo are:
    - `NFLX_AdjClose_mean`
 
 This merged CSV is the input for the other team members, who will perform statistical analysis and create visualizations in separate notebooks.
+
+
+Part 3: Visualization and insights
+
+As the visualization lead, my responsibilities in this repo are:
+
+1. **Generate time-series visualizations**
+   - Create a dual-axis line chart to compare annual gold prices and Netflix stock prices.
+   - Use the Year column as the x-axis and plot both variables with separate y-axes for clarity.
+   - Highlight long-term trends and major fluctuations.
+2. **Analyze relationships between variables**
+   - Create a scatter plot of Gold_USD_mean vs NFLX_AdjClose_mean.
+   - Fit a linear regression line to visualize the overall relationship.
+   - Observe whether the relationship appears linear and identify any outliers.
+3. **Compute and visualize correlation**
+   - Calculate the correlation matrix between gold prices and Netflix stock prices.
+   - Generate a heatmap to present the correlation coefficient in a clear and interpretable way.
+4. **Interpret results and provide insights**
+   - Summarize key findings from the visualizations.
+   - Discuss whether the relationship is positive, negative, or weak.
+   - Clarify that correlation does not imply causation.
+   - Identify possible external factors (e.g., macroeconomic trends, market growth) influencing both variables.
+These visualizations are used to support the statistical analysis results and provide intuitive insights into the relationship between the two variables.

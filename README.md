@@ -5,6 +5,12 @@ Final project: data and analysis for studying the relationship between historica
   - **Source:** World Gold Council – Goldhub “Price and premium” dataset.
   - **Content:** Excel file titled *Gold price averages in a range of currencies since 1978*, which reports official average gold prices in U.S. dollars and other major currencies at monthly, quarterly, and yearly frequencies starting in 1978.
   - **Note:** In this project we use the USD‑denominated monthly and yearly average gold price series and restrict the sample to the years that overlap with the Netflix data (2002–2023).
+  - https://www.gold.org/goldhub/data/gold-prices#from-login=1
+ 
+- **Netflix stock prices (NFLX)**
+  - **Source:** Kaggle – historical daily Netflix stock price dataset.
+  - **Content:** Daily Open, High, Low, Close, Adjusted Close, and Volume from 2002 onward.
+  - This project uses the Adjusted Close price.
   - https://www.kaggle.com/datasets/henryshan/netflix-stock-price
 
 ## What we do

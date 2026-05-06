@@ -1,12 +1,11 @@
 # INFO5574_finalproject_gold_nflx
 Final project: data and analysis for studying the relationship between historical gold prices and Netflix (NFLX) stock performance.
 
-## Data sources
-- **Gold prices (GLD: SPDR® Gold Shares)**
-  - **Source:** State Street Global Advisors / Yahoo Finance (`GLD`).
-  - **Content:** Daily Net Asset Value (NAV) and Adjusted Close prices from 2004 onward. 
-  - *Note: We utilize GLD rather than spot gold to perfectly align the trading calendar with the US stock market, eliminating microstructure noise.*
-  - https://www.ssga.com/us/en/individual/etfs/funds/spdr-gold-shares-gld
+- **Gold prices (USD per troy ounce)**
+  - **Source:** Goldhub – data platform of the World Gold Council.
+  - **Content:** Official historical gold prices in U.S. dollars at daily, monthly, and yearly frequencies, downloaded as Excel tables (monthly and yearly averages).
+  - **Note:** In this project we use the USD‑denominated monthly and yearly average gold price series from Goldhub, and restrict the sample to the years that overlap with the Netflix data (2002–2023).
+  - https://www.gold.org/goldhub/data/gold-prices#from-login=1
 - **Netflix stock prices (NFLX)**
   - Source: Kaggle – historical daily Netflix stock price dataset.
   - Content: Daily Open, High, Low, Close, Adjusted Close, and Volume from 2002 onward.

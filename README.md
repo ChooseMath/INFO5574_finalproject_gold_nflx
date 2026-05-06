@@ -6,7 +6,7 @@ Final project: data and analysis for studying the relationship between historica
   - **Source:** State Street Global Advisors / Yahoo Finance (`GLD`).
   - **Content:** Daily Net Asset Value (NAV) and Adjusted Close prices from 2004 onward. 
   - *Note: We utilize GLD rather than spot gold to perfectly align the trading calendar with the US stock market, eliminating microstructure noise.*
-
+  - https://www.ssga.com/us/en/individual/etfs/funds/spdr-gold-shares-gld
 - **Netflix stock prices (NFLX)**
   - Source: Kaggle – historical daily Netflix stock price dataset.
   - Content: Daily Open, High, Low, Close, Adjusted Close, and Volume from 2002 onward.

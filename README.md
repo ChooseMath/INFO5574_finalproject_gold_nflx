@@ -1,5 +1,6 @@
 # INFO5574_finalproject_gold_nflx
 Final project: data and analysis for studying the relationship between historical gold prices and Netflix (NFLX) stock performance.
+Group name: BlockZero_Decoder
 
 - **Gold prices (USD per troy ounce)**
   - **Source:** World Gold Council – Goldhub “Price and premium” dataset.
